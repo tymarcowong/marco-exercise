@@ -1,0 +1,31 @@
+.card {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.card span {
+  font-size: 0.5rem;
+  color: red;
+}
